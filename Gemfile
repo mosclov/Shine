@@ -32,6 +32,8 @@ gem 'devise'
 gem'pg'
 
 gem 'bower-rails'
+
+gem 'faker'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
