@@ -34,6 +34,10 @@ gem'pg'
 gem 'bower-rails'
 
 gem 'faker'
+
+gem 'angular-rails-templates'
+
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -43,6 +47,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.0'
   gem 'poltergeist'
   gem 'database_cleaner'
+  gem 'teaspoon-jasmine'
 end
 
 group :development do
