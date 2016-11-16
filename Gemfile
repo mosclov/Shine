@@ -34,6 +34,10 @@ gem'pg'
 gem 'bower-rails'
 
 gem 'faker'
+
+gem 'angular-rails-templates'
+
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -41,6 +45,9 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   gem 'rspec-rails', '~> 3.0'
+  gem 'poltergeist'
+  gem 'database_cleaner'
+  gem 'teaspoon-jasmine'
 end
 
 group :development do
