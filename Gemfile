@@ -37,7 +37,7 @@ gem 'faker'
 
 gem 'angular-rails-templates'
 
-
+gem 'sprockets', '~> 2.8'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
